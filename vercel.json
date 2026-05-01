@@ -3,6 +3,10 @@
     {
       "source": "/dicom-web/:path*",
       "destination": "https://orthanc-skpg.onrender.com/dicom-web/:path*"
+    },
+    {
+      "source": "/dicom-web",
+      "destination": "https://orthanc-skpg.onrender.com/dicom-web"
     }
   ]
 }
