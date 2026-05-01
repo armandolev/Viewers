@@ -1,5 +1,8 @@
 window.config = {
   routerBasename: '/',
+  extensions: [],
+  modes: [],
+  showStudyList: true,
   dataSources: [{
     namespace: '@ohif/extension-default.dataSourcesModule.dicomweb',
     sourceName: 'dicomweb',
@@ -14,6 +17,7 @@ window.config = {
       imageRendering: 'wadors',
       thumbnailRendering: 'wadors',
       enableStudyLazyLoad: true,
+      supportsFuzzyMatching: false,
     },
   }],
   defaultDataSourceName: 'dicomweb',
