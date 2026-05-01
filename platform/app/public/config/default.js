@@ -9,9 +9,9 @@ window.config = {
     configuration: {
       friendlyName: 'Mi Orthanc',
       name: 'orthanc',
-      wadoUriRoot: 'https://orthanc-skpg.onrender.com/dicom-web',
-      qidoRoot: 'https://orthanc-skpg.onrender.com/dicom-web',
-      wadoRoot: 'https://orthanc-skpg.onrender.com/dicom-web',
+      wadoUriRoot: '/dicom-web',
+      qidoRoot: '/dicom-web',
+      wadoRoot: '/dicom-web',
       qidoSupportsIncludeField: false,
       supportsReject: false,
       imageRendering: 'wadors',
